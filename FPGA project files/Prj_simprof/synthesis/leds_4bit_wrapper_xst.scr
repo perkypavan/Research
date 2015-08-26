@@ -1,0 +1,13 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc6slx45tfgg484-3
+-top leds_4bit_wrapper
+-ifmt MIXED
+-ifn leds_4bit_wrapper_xst.prj
+-ofn ../implementation/leds_4bit_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation/leds_4bit_wrapper}
+-vlgincdir {"D:\Pavan_FPGA_Projects\Prj_simprof\pcores\" "C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }

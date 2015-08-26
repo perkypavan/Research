@@ -1,0 +1,147 @@
+
+Checking platform configuration ...
+IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 5 slave(s) 
+IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
+
+Checking port drivers...
+WARNING:EDK - PORT: bscan_tdo1, CONNECTOR: bscan_tdo1 - No driver found. Port
+   will be driven to GND -
+   C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_b\data\mdm
+   _v2_1_0.mpd line 230 
+WARNING:EDK - PORT: Trace_Instruction, CONNECTOR: microblaze_0_Trace_Instruction
+   - floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 40
+    
+WARNING:EDK - PORT: Trace_Reg_Write, CONNECTOR: microblaze_0_Trace_Reg_Write -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 43 
+WARNING:EDK - PORT: Trace_Reg_Addr, CONNECTOR: microblaze_0_Trace_Reg_Addr -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 44 
+WARNING:EDK - PORT: Trace_MSR_Reg, CONNECTOR: microblaze_0_Trace_MSR_Reg -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 45 
+WARNING:EDK - PORT: Trace_PID_Reg, CONNECTOR: microblaze_0_Trace_PID_Reg -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 46 
+WARNING:EDK - PORT: Trace_New_Reg_Value, CONNECTOR:
+   microblaze_0_Trace_New_Reg_Value - floating connection -
+   D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 47 
+WARNING:EDK - PORT: Trace_Exception_Taken, CONNECTOR:
+   microblaze_0_Trace_Exception_Taken - floating connection -
+   D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 48 
+WARNING:EDK - PORT: Trace_Exception_Kind, CONNECTOR:
+   microblaze_0_Trace_Exception_Kind - floating connection -
+   D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 49 
+WARNING:EDK - PORT: Trace_Jump_Taken, CONNECTOR: microblaze_0_Trace_Jump_Taken -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 50 
+WARNING:EDK - PORT: Trace_Delay_Slot, CONNECTOR: microblaze_0_Trace_Delay_Slot -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 51 
+WARNING:EDK - PORT: Trace_Data_Address, CONNECTOR:
+   microblaze_0_Trace_Data_Address - floating connection -
+   D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 52 
+WARNING:EDK - PORT: Trace_Data_Access, CONNECTOR: microblaze_0_Trace_Data_Access
+   - floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 53
+    
+WARNING:EDK - PORT: Trace_Data_Read, CONNECTOR: microblaze_0_Trace_Data_Read -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 54 
+WARNING:EDK - PORT: Trace_Data_Write, CONNECTOR: microblaze_0_Trace_Data_Write -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 55 
+WARNING:EDK - PORT: Trace_Data_Write_Value, CONNECTOR:
+   microblaze_0_Trace_Data_Write_Value - floating connection -
+   D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 56 
+WARNING:EDK - PORT: Trace_Data_Byte_Enable, CONNECTOR:
+   microblaze_0_Trace_Data_Byte_Enable - floating connection -
+   D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 57 
+WARNING:EDK - PORT: Trace_DCache_Req, CONNECTOR: microblaze_0_Trace_DCache_Req -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 58 
+WARNING:EDK - PORT: Trace_DCache_Hit, CONNECTOR: microblaze_0_Trace_DCache_Hit -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 59 
+WARNING:EDK - PORT: Trace_DCache_Rdy, CONNECTOR: microblaze_0_Trace_DCache_Rdy -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 60 
+WARNING:EDK - PORT: Trace_DCache_Read, CONNECTOR: microblaze_0_Trace_DCache_Read
+   - floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 61
+    
+WARNING:EDK - PORT: Trace_ICache_Req, CONNECTOR: microblaze_0_Trace_ICache_Req -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 62 
+WARNING:EDK - PORT: Trace_ICache_Hit, CONNECTOR: microblaze_0_Trace_ICache_Hit -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 63 
+WARNING:EDK - PORT: Trace_ICache_Rdy, CONNECTOR: microblaze_0_Trace_ICache_Rdy -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 64 
+WARNING:EDK - PORT: Trace_OF_PipeRun, CONNECTOR: microblaze_0_Trace_OF_PipeRun -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 65 
+WARNING:EDK - PORT: Trace_EX_PipeRun, CONNECTOR: microblaze_0_Trace_EX_PipeRun -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 66 
+WARNING:EDK - PORT: Trace_MEM_PipeRun, CONNECTOR: microblaze_0_Trace_MEM_PipeRun
+   - floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 67
+    
+WARNING:EDK - PORT: Trace_MB_Halted, CONNECTOR: microblaze_0_Trace_MB_Halted -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 68 
+WARNING:EDK - PORT: Trace_Jump_Hit, CONNECTOR: microblaze_0_Trace_Jump_Hit -
+   floating connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 69 
+WARNING:EDK - PORT: bscan_tdi, CONNECTOR: bscan_tdi - floating connection -
+   C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_b\data\mdm
+   _v2_1_0.mpd line 223 
+WARNING:EDK - PORT: bscan_reset, CONNECTOR: bscan_reset - floating connection -
+   C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_b\data\mdm
+   _v2_1_0.mpd line 224 
+WARNING:EDK - PORT: bscan_shift, CONNECTOR: bscan_shift - floating connection -
+   C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_b\data\mdm
+   _v2_1_0.mpd line 225 
+WARNING:EDK - PORT: bscan_update, CONNECTOR: bscan_update - floating connection
+   -
+   C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_b\data\mdm
+   _v2_1_0.mpd line 226 
+WARNING:EDK - PORT: bscan_capture, CONNECTOR: bscan_capture - floating
+   connection -
+   C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_b\data\mdm
+   _v2_1_0.mpd line 227 
+WARNING:EDK - PORT: bscan_sel1, CONNECTOR: bscan_sel1 - floating connection -
+   C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_b\data\mdm
+   _v2_1_0.mpd line 228 
+WARNING:EDK - PORT: bscan_drck1, CONNECTOR: bscan_drck1 - floating connection -
+   C:\Xilinx\13.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_00_b\data\mdm
+   _v2_1_0.mpd line 229 
+WARNING:EDK - PORT: Peripheral_Reset, CONNECTOR: sys_periph_reset - floating
+   connection - D:\Pavan_FPGA_Projects\Prj_simprof\system.mhs line 195 
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Did not find device sumary in microblaze_0's synthesis log file
+Did not find timing summary in microblaze_0's synthesis log file
+Did not find device sumary in mb_plb's synthesis log file
+Did not find timing summary in mb_plb's synthesis log file
+Did not find device sumary in ilmb's synthesis log file
+Did not find timing summary in ilmb's synthesis log file
+Did not find device sumary in dlmb's synthesis log file
+Did not find timing summary in dlmb's synthesis log file
+Did not find device sumary in dlmb_cntlr's synthesis log file
+Did not find timing summary in dlmb_cntlr's synthesis log file
+Did not find device sumary in ilmb_cntlr's synthesis log file
+Did not find timing summary in ilmb_cntlr's synthesis log file
+Did not find device sumary in lmb_bram's synthesis log file
+Did not find timing summary in lmb_bram's synthesis log file
+Did not find device sumary in RS232_Uart_1's synthesis log file
+Did not find timing summary in RS232_Uart_1's synthesis log file
+Did not find device sumary in LEDs_4Bit's synthesis log file
+Did not find timing summary in LEDs_4Bit's synthesis log file
+Did not find device sumary in DIP_Switches_4Bit's synthesis log file
+Did not find timing summary in DIP_Switches_4Bit's synthesis log file
+Did not find device sumary in clock_generator_0's synthesis log file
+Did not find timing summary in clock_generator_0's synthesis log file
+Did not find device sumary in mdm_0's synthesis log file
+Did not find timing summary in mdm_0's synthesis log file
+Did not find device sumary in proc_sys_reset_0's synthesis log file
+Did not find timing summary in proc_sys_reset_0's synthesis log file
+Did not find device sumary in simprof_0's synthesis log file
+Did not find timing summary in simprof_0's synthesis log file
+Conversion to XML complete.
