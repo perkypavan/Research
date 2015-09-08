@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\Pavan_FPGA_Projects\Prj_funprof_v1.0/drivers/funprof_v1_00_a/data/funprof_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Mon Sep 07 12:22:32 2015 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER funprof
+
+  OPTION supported_peripherals = (funprof);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

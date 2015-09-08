@@ -1,0 +1,32 @@
+Release 13.1 ngcbuild O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\13.1\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc6slx45tfgg484-3 -intstyle silent -i -sd .. chipscope_ila_0_wrapper.ngc
+../chipscope_ila_0_wrapper
+
+Reading NGO file
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/chipscope_ila_0_wrapper/
+chipscope_ila_0_wrapper.ngc" ...
+Loading design module
+"D:\Pavan_FPGA_Projects\Prj_funprof_v1.0\implementation\chipscope_ila_0_wrapper/
+chipscope_ila_0.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 107488 kilobytes
+
+Writing NGC file "../chipscope_ila_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  1 sec
+Total CPU time to NGCBUILD completion:   1 sec
+
+Writing NGCBUILD log file "../chipscope_ila_0_wrapper.blc"...

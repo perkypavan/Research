@@ -1,0 +1,7 @@
+INFILE=D:\Pavan_FPGA_Projects\Prj_funprof_v1.0\implementation\system.ncd
+OUTFILE=D:\Pavan_FPGA_Projects\Prj_funprof_v1.0\implementation\system.bit
+FAMILY=Spartan6
+PART=xc6slx45t-3fgg484
+WORKINGDIR=D:\Pavan_FPGA_Projects\Prj_funprof_v1.0\implementation
+LICENSE=WebPack
+USER_INFO=207312074_207303105_207295226_009

@@ -1,0 +1,159 @@
+Release 13.1 Xflow O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+xflow.exe -wd implementation -p xc6slx45tfgg484-3 -implement xflow.opt
+system.ngc  
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/13.1/ISE_DS/EDK/spartan6/data/spartan6.acd> with local file
+<C:/Xilinx/13.1/ISE_DS/ISE/spartan6/data/spartan6.acd>
+
+Using Flow File:
+D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/fpga.flw 
+Using Option File(s): 
+ D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc6slx45tfgg484-3 -nt timestamp -bm system.bmm
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/system.ngc" -uc
+system.ucf system.ngd 
+#----------------------------------------------#
+Release 13.1 - ngdbuild O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/13.1/ISE_DS/EDK/spartan6/data/spartan6.acd> with local file
+<C:/Xilinx/13.1/ISE_DS/ISE/spartan6/data/spartan6.acd>
+
+Command Line: C:\Xilinx\13.1\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -p
+xc6slx45tfgg484-3 -nt timestamp -bm system.bmm
+D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/system.ngc -uc system.ucf
+system.ngd
+
+Reading NGO file
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/system.ngc" ...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/funprof_0_wrapper.ngc"..
+.
+ERROR:NgdBuild:76 - File
+   "D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/funprof_0_wrapper.ngc
+   " cannot be merged into block "funprof_0" (TYPE="funprof_0_wrapper") because
+   one or more pins on the block, including pin "P_Count<31>", were not found in
+   the file.  Please make sure that all pins on the instantiated component match
+   pins in the lower-level design block (irrespective of case).  If there are
+   bussed pins on this block, make sure that the upper-level and lower-level
+   netlists use the same bus-naming convention.
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/rs232_uart_1_wrapper.ngc
+"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/clock_generator_0_wrappe
+r.ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/proc_sys_reset_0_wrapper
+.ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/microblaze_0_wrapper.ngc
+"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/mb_plb_wrapper.ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/ilmb_wrapper.ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/dlmb_wrapper.ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/dlmb_cntlr_wrapper.ngc".
+..
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/ilmb_cntlr_wrapper.ngc".
+..
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/leds_4bit_wrapper.ngc"..
+.
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/push_buttons_4bit_wrappe
+r.ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/dip_switches_4bit_wrappe
+r.ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/mdm_0_wrapper.ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/chipscope_ila_0_wrapper.
+ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/lmb_bram_wrapper.ngc"...
+Loading design module
+"D:/Pavan_FPGA_Projects/Prj_funprof_v1.0/implementation/chipscope_icon_0_wrapper
+.ngc"...
+INFO:NgdBuild:1317 - Using core chipscope_ila_v1 requires a ChipScopePro
+   license.  The following blocks are instances of core chipscope_ila_v1:
+	/system/chipscope_ila_0
+
+INFO:NgdBuild:1317 - Using core chipscope_ila_v1 requires a ChipScopePro
+   license.  The following blocks are instances of core chipscope_ila_v1:
+	/system/chipscope_ila_0
+
+-----------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+
+-----------------------------------------------
+
+-----------------------------------------------
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'clock_generator_0/clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst' of
+   type PLL_ADV has been changed from 'VIRTEX5' to 'SPARTAN6' to correct
+   post-ngdbuild and timing simulation for this primitive.  In order for
+   functional simulation to be correct, the value of SIM_DEVICE should be
+   changed in this same manner in the source netlist or constraint file.
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0 =
+   PERIOD "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0" TS_sys_clk_pin
+   * 0.25 HIGH 50%>
+
+Done...
+
+Processing BMM file "system.bmm" ...
+
+Checking expanded design ...
+ERROR:NgdBuild:604 - logical block 'funprof_0' with type 'funprof_0_wrapper'
+   could not be resolved. A pin name misspelling can cause this, a missing edif
+   or ngc file, case mismatch between the block name and the edif or ngc file
+   name, or the misspelling of a type name. Symbol 'funprof_0_wrapper' is not
+   supported in target 'spartan6'.
+WARNING:NgdBuild:443 - SFF primitive
+   'microblaze_0/microblaze_0/Performance.Decode_I/Using_FPGA.Gen_Bits[27].MEM_E
+   X_Result_Inst' has unconnected output pin
+WARNING:NgdBuild:478 - clock net bscan_drck1 with clock driver
+   mdm_0/mdm_0/BUFG_DRCK1 drives no clock pins
+WARNING:NgdBuild:452 - logical net 'bscan_tdo1' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     2
+  Number of warnings:   4
+
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "system.bld"...
+ERROR:Xflow - Program ngdbuild returned error code 2. Aborting flow execution...

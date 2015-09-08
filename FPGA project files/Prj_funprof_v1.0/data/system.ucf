@@ -1,0 +1,21 @@
+#  Spartan-6 SP605 Evaluation Platform
+Net fpga_0_RS232_Uart_1_RX_pin LOC = H17  |  IOSTANDARD=LVCMOS25;
+Net fpga_0_RS232_Uart_1_TX_pin LOC = B21  |  IOSTANDARD=LVCMOS25;
+Net fpga_0_LEDs_4Bit_GPIO_IO_pin<0> LOC = D17  |  IOSTANDARD=LVCMOS25;
+Net fpga_0_LEDs_4Bit_GPIO_IO_pin<1> LOC = AB4  |  IOSTANDARD=LVCMOS25;
+Net fpga_0_LEDs_4Bit_GPIO_IO_pin<2> LOC = D21  |  IOSTANDARD=LVCMOS25;
+Net fpga_0_LEDs_4Bit_GPIO_IO_pin<3> LOC = W15  |  IOSTANDARD=LVCMOS25;
+Net fpga_0_Push_Buttons_4Bit_GPIO_IO_pin<0> LOC = F3  |  IOSTANDARD=LVCMOS15;
+Net fpga_0_Push_Buttons_4Bit_GPIO_IO_pin<1> LOC = G6  |  IOSTANDARD=LVCMOS15;
+Net fpga_0_Push_Buttons_4Bit_GPIO_IO_pin<2> LOC = F5  |  IOSTANDARD=LVCMOS15;
+Net fpga_0_Push_Buttons_4Bit_GPIO_IO_pin<3> LOC = C1  |  IOSTANDARD=LVCMOS15;
+Net fpga_0_DIP_Switches_4Bit_GPIO_IO_pin<0> LOC=C18  |  IOSTANDARD=LVCMOS25;
+Net fpga_0_DIP_Switches_4Bit_GPIO_IO_pin<1> LOC=Y6  |  IOSTANDARD=LVCMOS25;
+Net fpga_0_DIP_Switches_4Bit_GPIO_IO_pin<2> LOC=W6  |  IOSTANDARD=LVCMOS25;
+Net fpga_0_DIP_Switches_4Bit_GPIO_IO_pin<3> LOC=E4  |  IOSTANDARD=LVCMOS15;
+Net fpga_0_clk_1_sys_clk_p_pin TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 200000 kHz;
+Net fpga_0_clk_1_sys_clk_p_pin LOC = K21  |  IOSTANDARD=LVDS_25  |  DIFF_TERM = TRUE;
+Net fpga_0_clk_1_sys_clk_n_pin LOC = K22  |  IOSTANDARD=LVDS_25  |  DIFF_TERM = TRUE;
+Net fpga_0_rst_1_sys_rst_pin TIG;
+Net fpga_0_rst_1_sys_rst_pin LOC = H8  |  IOSTANDARD=LVCMOS15  |  PULLUP  |  TIG;

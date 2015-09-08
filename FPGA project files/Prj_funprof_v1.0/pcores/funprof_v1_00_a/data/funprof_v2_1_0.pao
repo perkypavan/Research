@@ -1,0 +1,13 @@
+##############################################################################
+## Filename:          D:\Pavan_FPGA_Projects\Prj_funprof_v1.0\pcores/funprof_v1_00_a/data/funprof_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue Sep 08 11:51:06 2015 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a all vhdl
+lib plbv46_slave_single_v1_01_a all vhdl
+lib funprof_v1_00_a decode verilog
+lib funprof_v1_00_a counter verilog
+lib funprof_v1_00_a funprof verilog
+lib funprof_v1_00_a user_logic verilog
+lib funprof_v1_00_a funprof vhdl
